@@ -1,0 +1,12 @@
+J'ai appris à utiliser les commandes : 
+- git init
+- git add --all
+- git add -A
+- git commit -m
+- git add *
+- git add .
+- git push origin main
+- git push origin main --force
+- rm -rf 
+- rm
+
