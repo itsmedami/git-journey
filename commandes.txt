@@ -1,12 +1,14 @@
-J'ai appris à utiliser les commandes : 
-- git init
-- git add --all
-- git add -A
-- git commit -m
-- git add *
-- git add .
-- git push origin main
-- git push origin main --force
-- rm -rf 
-- rm
+Commandes Git : 
 
+- git init : Initialisation d'un nouveau dépôt Git local dans le dossier où je me situe
+- git branch -M main : Renomme la branche principale par défaut en main (au lieu de master)
+- git status : Vérifie le statut de mes fichiers
+- git clone <URL_du_depot> : Récupère un dépôt déjà existant sur GitHub
+- git remote add origin <URL_du_depot> : Lie mon dossier local à un dépôt vide que je viens de créer
+- git add <nom_du_fichier> : Prépare le fichier pour le prochain commit
+- git add -all / git add -A : Prépare tous les fichiers qui ont été modifié, tout les changements peu importe le dossier où je me situe pour le prochain commit
+- git add . : Prépare tous les fichiers qui ont été modifié, tout les changements du dossier courant pour le prochain commit
+- git commit -m "<message>" : Enregistre définitivement les modifications dans l'historique local
+- git pull origin main : Récupère les nouveautés qui sont sur le dépôt GitHub pour mettre à jour les fichiers locaux
+- git push origin main : Envoie les commits locaux vers le dépôt GitHub
+- git reset HEAD~1 : Annule le précédent commit 
